@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(BrainSim, :DocTestSetup, :(using BrainSim); recursive=true)
 makedocs(;
     modules=[BrainSim],
     authors="terrypang <terrypang@aliyun.com> and contributors",
-    repo="https://github.com/terrypang/BrainSim.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/THBI-BrainSim/BrainSim.jl/blob/{commit}{path}#{line}",
     sitename="BrainSim.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://terrypang.github.io/BrainSim.jl",
+        canonical="https://thbi-brainsim.github.io/BrainSim.jl/dev/",
         assets=String[],
     ),
     pages=[
@@ -19,5 +19,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/terrypang/BrainSim.jl",
+    repo="github.com/THBI-BrainSim/BrainSim.jl",
 )
