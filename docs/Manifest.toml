@@ -4,7 +4,7 @@
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[BrainSim]]
-path = ".."
+path = "/home/panghao/workspace/BrainSim"
 uuid = "0b05a078-44ef-4ec6-bc5c-fa1ed0c7522b"
 version = "0.1.0"
 
